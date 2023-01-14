@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vježba 16</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            margin-top: 10px;
+            background-image: url("./images/banner.jpg");
+            height: 100vh;
+            background-size: 100% 100%;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            padding-top: 21%;
+        }
+        nav {
+            width: 100%;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        nav ul {
+            list-style-type: none;
+            line-height: 3rem;
+        }
+        nav ul li:hover {
+            background-color: grey;
+            cursor: pointer;
+        }
+        .watches {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .adventurer {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            border: 1px solid black;
+            width: 30%;
+        }
+        .adventurer img {
+            width: 100%;
+        }
+        .athlete {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            border: 1px solid black;
+            width: 30%;
+        }
+        .athlete img {
+            width: 100%;
+        }
+        .golfer {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            border: 1px solid black;
+            width: 30%;
+        }
+        .golfer img {
+            width: 100%;
+        }
+        footer {
+            display: flex;
+            background-color: black;
+            color: white;
+            height: 40px;
+            align-items:center;
+            justify-content:center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MARQ ® TOOL WATCH COLLECTION</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Homepage</li>
+            <li>Articles</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="watches">
+            <div class="adventurer">
+                <img src="./images/adventurer-gen2.jpg" alt="Adventurer Gen2">
+                <h1>MARQ® Adventurer (Gen 2)</h1>
+                <p>Cijena vrijedi samo za internet prodaju na www.garmin.com, PDV je obračunat po stopi od 25%. Prodaju i isporuku obavlja tvrtka Garmin Europe Ltd.</p>
+                <p>2.250,00€</p>
+            </div>
+            <div class="athlete">
+                <img src="./images/athlete-gen2.jpg" alt="Athlete Gen2">
+                <h1>MARQ® Athlete (Gen 2)</h1>
+                <p>Cijena vrijedi samo za internet prodaju na www.garmin.com, PDV je obračunat po stopi od 25%. Prodaju i isporuku obavlja tvrtka Garmin Europe Ltd.</p>
+                <p>1.950,00€</p>
+            </div>
+            <div class="golfer">
+                <img src="./images/golfer-gen2.jpg" alt="Golfer Gen2">
+                <h1>MARQ® Golfer (Gen 2)</h1>
+                <p>Cijena vrijedi samo za internet prodaju na www.garmin.com, PDV je obračunat po stopi od 25%. Prodaju i isporuku obavlja tvrtka Garmin Europe Ltd.</p>
+                <p>2.350,00€</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        © Matej Šimičić
+    </footer>
+</body>
+</html>
